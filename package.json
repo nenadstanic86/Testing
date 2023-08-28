@@ -1,0 +1,22 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "\"# Testing\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nenadstanic86/Testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nenadstanic86/Testing/issues"
+  },
+  "homepage": "https://github.com/nenadstanic86/Testing#readme",
+  "devDependencies": {
+    "cypress": "^12.17.4"
+  }
+}
