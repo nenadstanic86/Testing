@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nenadstanic86/Testing#readme",
   "devDependencies": {
-    "cypress": "^12.17.4"
+    "cypress": "^12.17.4",
+    "cypress-mochawesome-reporter": "^3.5.1"
   }
 }
