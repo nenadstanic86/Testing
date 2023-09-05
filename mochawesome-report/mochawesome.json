@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-08-30T11:13:24.821Z",
-    "end": "2023-08-30T11:13:46.307Z",
-    "duration": 21486,
+    "start": "2023-09-05T11:13:03.469Z",
+    "end": "2023-09-05T11:13:23.171Z",
+    "duration": 19702,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "92e5567a-19c0-4f3a-96f1-172e7752efc6",
+      "uuid": "e47ee98a-d5e2-410c-8b35-86b81cb47097",
       "title": "",
       "fullFile": "cypress\\e2e\\locateIngridBuilding.cy.js",
       "file": "cypress\\e2e\\locateIngridBuilding.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "4206191c-9a67-4c83-8bbb-f575d1c78cb1",
+          "uuid": "fc87ac67-6742-4ab4-8296-5ae9f8e22f63",
           "title": "template spec",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "passes",
               "fullTitle": "template spec passes",
               "timedOut": null,
-              "duration": 18786,
+              "duration": 15265,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.log('Open Google maps.');\ncy.visit('https://www.google.com/maps');\ncy.log('Google maps app is opened.');\ncy.screenshot();\ncy.get('#searchboxinput').type('Schneider Electric LLC, Put partizanskog novosadskog odreda, Novi Sad');\ncy.get('#searchbox-searchbutton').click();\ncy.wait(2000);\ncy.screenshot();\ncy.log('First zoom in level.');\ncy.get('#widget-zoom-in').click();\ncy.wait(2000);\ncy.screenshot();\ncy.log('Second zoom level.');\ncy.get('#widget-zoom-in').click();\ncy.wait(2000);\ncy.screenshot();",
               "err": {},
-              "uuid": "b1313683-9a8d-4103-bb27-44a722e9cd71",
-              "parentUUID": "4206191c-9a67-4c83-8bbb-f575d1c78cb1",
+              "uuid": "d2967c0f-f2a5-4205-b7e5-0e225a90eb59",
+              "parentUUID": "fc87ac67-6742-4ab4-8296-5ae9f8e22f63",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "b1313683-9a8d-4103-bb27-44a722e9cd71"
+            "d2967c0f-f2a5-4205-b7e5-0e225a90eb59"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 18786,
+          "duration": 15265,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
